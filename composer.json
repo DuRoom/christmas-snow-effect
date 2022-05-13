@@ -1,0 +1,39 @@
+{
+    "name": "duroom/christmas-snow-effect",
+    "description": "It&#39;s christmas time also for DuRoom!",
+    "keywords": [
+        "christmas",
+        "snow",
+        "duroom"
+    ],
+    "type": "duroom-extension",
+    "license": "MIT",
+    "require": {
+        "duroom/core": "^1.2"
+    },
+    "require-dev": {
+        "duroom/testing": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "NKDuy",
+            "email": "kn145660@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DuRoom\\ChristmasSnowEffect\\": "src/"
+        }
+    },
+    "extra": {
+        "duroom-extension": {
+            "title": "Christmas Time!",
+            "category": "",
+            "icon": {
+                "name": "fas fa-tree",
+                "backgroundColor": "red",
+                "color": "green"
+            }
+        }
+    }
+}
